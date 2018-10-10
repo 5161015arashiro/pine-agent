@@ -49,3 +49,52 @@ vi /var/www/html/test.shtml
 vi /var/www/html/test.cgi
 vi /var/www/html/index.html 
 ip a
+vi /etc/httpd/conf/httpd.conf 
+systemctl restart httpd
+systemctl restart httpd.service
+systemctl status httpd.service
+systemctl status httpd.service
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+systemctl status httpd.service
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+systemctl status httpd.service
+vi /etc/httpd/conf/httpd.conf
+systemctl status httpd.service
+systemctl restart httpd.service
+systemctl status httpd.service
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+systemctl status httpd.service
+systemctl status phpd
+systemctl status php
+vi /etc/httpd/conf/httpd.conf
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+rm -f /var/www/html/.htaccess
+echo test >> /var/www/html/index.html
+vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service
+systemctl status httpd.service
+yum -y install bind bind-chroot
+/usr/libexec/setup-named-chroot.sh /var/named/chroot on
+vi /var/named/chroot/var/named/pine-agent.local
+vi /var/named/chroot/etc/named.conf 
+cd
+git init
+git add .
+git add -A
+git commit-m "php and http"
+git commit -m "php and http"
+git remote add origin https://github.com/5161015arashiro/pine-agent.git
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
