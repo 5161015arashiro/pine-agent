@@ -444,3 +444,110 @@ vi /etc/nginx/nginx.conf
 vi sample.py 
 
 python3 sample.py 
+python3 sample.py 
+vi sample.py 
+vi sample.py 
+vi
+vi sample.py 
+python3 sample.py 
+vi sample.py 
+vi /etc/nginx/nginx.conf
+cd ..
+cd ..
+cd ..
+cd ..
+cd..
+cd www/
+cd uwsgi-restful/
+ls
+mstui flask-restful
+mstsi flask-restful
+mkdir flask-restful
+cd flask-restful
+mkdir myapp
+cd ..
+cd flask-restful-sample/
+ls
+vi app-api.wsgi 
+vi uwsgi.ini 
+cd /var/www/flask/
+vi app.py
+ip a
+firewall-cmd --permanent --add-service=http
+firewall-cmd --reload
+systemctl start uwsgi.service
+systemctl status uwsgi.service
+systemctl status uwsgi.service -l
+ip a
+nmtui
+systemctl restart network
+systemctl restart NetworkManager
+nmtui
+ip a
+cd 
+git add
+git init
+git add
+git init
+git add -A
+git commit -m "ディレクトリ作り、sgiとnginxを接続させた"
+git push origin master
+cd /var/www/uwsgi-restful/flask-restful
+cd myapp/
+cd app.py
+vi app.py
+vi myapp.ini
+vi /etc/nginx/nginx.conf
+uwsgi -s /tmp/uwsgi.sock --w app:app --chmod-socket=666
+vi app.py
+yum install pcre-devel openssl-devel zlib-devel
+pip install uwsgi
+pip3 install uwsgi
+vi /etc/nginx/uwsgi_ini 
+vi /etc/system
+systemctl enable uwsgi.service
+systemctl start uwsgi.service
+systemctl start uwsgi.service
+systemctl status uwsgi.service
+yum install epel-release
+sed -ri 's/^enabled.*=.*1$/enabled = 0/g' /etc/yum.repos.d/epel.repo
+yum install nginx --enablerepo=epel
+vi /etc/nginx/nginx.conf
+systemctl restart nginx.service
+yum install gcc python-devel
+curl https://bootstrap.pypa.io/get-pip.py | python
+pip install flask
+mkdir -p /var/www/flask/
+vi /var/www/flask/index.wsgi 
+systemctl start uwsgi.service
+systemctl status uwsgi.service
+systemctl status uwsgi.service
+vi /etc/nginx/uwsgi_ini 
+vi /etc/systemd/system/uwsgi.service 
+yum install pcre-devel openssl-devel zlib-devel
+pip install uwsgi
+systemctl start uwsgi.service
+vi /etc/nginx/uwsgi_ini 
+vi /etc/systemd/system/uwsgi.service 
+systemctl restart uwsgi.service
+systemctl status uwsgi.service
+systemctl status uwsgi.service
+systemctl daemon-reload
+systemctl status uwsgi.service
+systemctl restart uwsgi.service
+systemctl status uwsgi.service
+vi /etc/nginx/uwsgi_ini 
+vi /var/www/flask/index.wsgi 
+cd ..
+cd myapp/
+systemctl status uwsgi.service
+vi /var/www/uwsgi-restful/flask-restful-sample/uwsgi.ini 
+vi /var/www/flask/
+vi /var/www/flask/app.py
+cd /etc/nginx/conf.d
+vi pine.conf
+cd /var/www/flask/
+vi pine.ini
+systemctl restart nginx.service
+uwsgi --ini pine.ini 
+uwsgi --socket /tmp/uwsgi.cock --module hello --callable app --chmod-socket=666
