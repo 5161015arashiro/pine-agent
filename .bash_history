@@ -551,3 +551,113 @@ vi pine.ini
 systemctl restart nginx.service
 uwsgi --ini pine.ini 
 uwsgi --socket /tmp/uwsgi.cock --module hello --callable app --chmod-socket=666
+cd
+git status
+git push
+git status
+git push
+git init
+git add pine-agent/
+git commit -m "pine"
+git push origin master
+vi /usr/share/nginx/html/50x.html 
+vi /etc/nginx/nginx.conf
+vi /etc/nginx/conf.d/server.conf 
+vi /etc/nginx/conf.d/pine.conf 
+vi /etc/nginx/nginx.conf
+git add
+cd
+git add
+git init
+git add
+git add -A
+git add pine-agent/
+git add -?
+git add -A
+git commit -m "fail"
+git pull origin master
+git commit -m "fail"
+git status
+git commit -m "fail"
+history 
+cd /var/www/flask/
+vi app.py
+git push origin master
+git init
+git add -A
+git push origin master
+vi index.wsgi 
+systemctl start nginx
+systemctl status
+systemctl status nginx
+vi index.wsgi 
+vi pine.ini 
+cd ..
+cd flask/
+cd app.py
+vi app.py
+cd ..
+vi uwsgi-restful/
+vi uwsgi-restful/flask-restful/myapp/mya
+cd
+git init
+git add -A
+git commit -m "code"
+history 
+cd /var/www/flask/
+uwsgi --socket /tmp/uwsgi.sock --module add --callable app --chmed-socket=666
+vi index.wsgi 
+vi pine.ini 
+vi /etc/nginx/nginx.conf
+systemctl restart nginx
+systemctl stetus[ nginx
+systemctl stetus nginx
+systemctl status nginx
+vi /etc/nginx/nginx.conf
+systemctl restart nginx
+vi /etc/nginx/nginx.conf
+systemctl restart nginx
+systemctl status nginx
+cd ..
+cd flask/
+ll
+ll
+vi app.py
+vi pine.ini 
+vi /etc/nginx//uwsgi_ini 
+systemctl status uwsgi.servise
+systemctl status uwsgi.service
+systemctl status uwsgi.service
+vi /etc/nginx//uwsgi_ini 
+vi /etc/systemd/system/uwsgi.service 
+vi /etc/systemd/system/uwsgi.service 
+vi /etc/systemd/system/uwsgi.service 
+systemctl status uwsgi.service
+systemctl status uwsgi.service
+vi /etc/systemd/system/uwsgi.service 
+systemctl status uwsgi.service
+vi /etc/nginx/nginx.conf
+systemctl restart nginx
+$ uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+$ uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+$ uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+vi /etc/nginx/nginx.conf
+systemctl restart nginx
+vi /etc/nginx/nginx.conf
+systemctl restart nginx
+cd /var/www/flask/
+git init
+git add -A
+git commit -m "sgi"
+git push origin master
+git init
+git add -A
+git commit -m "sgi"
+git push origin master
+git push 
+git push origin master
+git init
+git add 
+git add -A
+git commit -m "git"
