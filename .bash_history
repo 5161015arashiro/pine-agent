@@ -661,3 +661,91 @@ git init
 git add 
 git add -A
 git commit -m "git"
+cd /var/www/flask/
+history 
+ls
+uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+python3 app.py
+systemctl restart nginx
+systemctl status nginx
+systemctl status uwsgi
+vi systemctl daemon-reload
+systemctl daemon-reload
+systemctl status uwsgi
+systemctl status uwsgi -l
+systemctl start uwsgi 
+systemctl status uwsgi -l
+vi /etc/systemd/system/uwsgi.service 
+systemctl start uwsgi
+systemctl status uwsgi
+systemctl status uwsgi
+vi /etc/nginx/uwsgi_ini 
+php install uwsgi
+php3 install uwsgi
+pip3 install uwsgi
+mkdir -p /etc/uwsgi/vassals
+nginx -v
+python3 --version
+uwsgi --version
+vi /etc/uwsgi/emperor.ini
+vi /etc/uwsgi/vhosts.ini
+vi /etc/nginx/conf.d/server.conf 
+vi /etc/nginx/conf.d/pine.conf 
+vi /var/lig/uwsgi/
+vi /var/log/uwsgi
+vi /etc/nginx/uwsgi_ini 
+vi /etc/systemd/system/uwsgi.service 
+systemctl enable uwsgi.service
+systemctl restart uwsgi.service
+vi /etc/systemd/system/uwsgi.service 
+systemctl start emperor.uwsgi.service
+yum install pcre-devel openssl-devel zlib-devel
+systemctl start emperor.uwsgi.service
+pip install uwsgi
+vi /etc/nginx/uwsgi_ini 
+vi /etc/systemd/system/uwsgi.service 
+systemctl start uwsgi.service
+systemctl daemon-reload
+systemctl restart uwsgi.service
+systemctl status uwsgi.service -l
+vi /etc/uwsgi/emperor.ini 
+systemctl status uwsgi.service -l
+vi /etc/systemd/system/uwsgi.service 
+vi /etc/nginx/nginx.conf
+vi /var/www/flask/myapp.ini
+vi venv
+ls
+mv venv
+ls
+mv venv 
+mv venv --help
+rm venv 
+cd /var/www/flask/
+ls
+vi pine.ini 
+ls
+rm myapp.ini 
+ls
+vi /etc/nginx/nginx.conf
+uwsgi --socket /tmp/uwsgi.sock --module app --callable app --chmod-socket=666
+vi /etc/nginx/nginx.conf
+systemctl restart uwsgi.service
+systemctl status uwsgi.service
+systemctl status uwsgi.service -l
+vi /etc/nginx/conf.d/default.conf
+vi /etc/nginx/conf.d/default.conf
+vi index.py
+uwsgi --http 127.0.0.1:3031 --wsgi-file /var/www/flask/index.py
+cd
+git init
+git add
+git add -A
+git commit -m "uwsgi2"
+git push origin master
+cd home
+cd /home
+git init
+git add -A
+git commit -m "uwsgi2"
+git push origin master
